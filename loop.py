@@ -1,5 +1,4 @@
 n:int=int(input("Bitte geben Sie eine natürliche Zahl ein:"))
-i:int=0
-while i<=n : 
+n=n+1
+for i in range(n) : 
     print(i)
-    i=i+1
